@@ -1,0 +1,1 @@
+fetch('produtos.json').then(r=>r.json()).then(ps=>{const c=document.getElementById('produtos');ps.forEach(p=>c.innerHTML+=`<div class="card"><img src="${p.imagem}"><h3>${p.nome}</h3><p><s>${p.de}</s></p><h2>${p.por}</h2><a class='btn' href='${p.link}' target='_blank'>Comprar Agora</a></div>`);});
