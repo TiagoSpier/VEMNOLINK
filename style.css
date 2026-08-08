@@ -6,22 +6,24 @@ body {
 }
 
 header {
-  text-align: center;
-  padding: 36px 16px 28px;
-  background: #FBEADC;
+  text-align: left;
+  padding: 24px 24px 20px;
+  background: linear-gradient(rgba(251, 234, 220, 0.88), rgba(251, 234, 220, 0.88)), url("AFILIADOS%20LOGO%20NATUREZA%20SELVAGEM.jpeg");
+  background-size: cover;
+  background-position: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 header h1 {
-  margin: 0 0 6px;
-  font-size: 30px;
+  margin: 0 0 4px;
+  font-size: 26px;
   letter-spacing: 1px;
 }
 
 header p {
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   color: #4A5D45;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .btn {
@@ -159,6 +161,10 @@ img {
   gap: 10px;
   flex-wrap: wrap;
   margin: 16px 0;
+}
+
+header .redes {
+  justify-content: flex-start;
 }
 
 .botao-rede {
