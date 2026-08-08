@@ -1,1 +1,39 @@
 body{font-family:Arial;margin:0;background:#f5f5f5}header{text-align:center;padding:30px;background:#ffe600}.btn{background:#3483fa;color:#fff;padding:10px 20px;text-decoration:none;border-radius:8px}#produtos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:20px}.card{background:#fff;padding:15px;border-radius:10px}img{width:100%}
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+
+.botao-rede {
+  padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tiktok {
+  background-color: #000000;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.mercadolivre {
+  background-color: #FFE600;
+  color: #000000;
+}
+
+.aviso-afiliado {
+  font-size: 11px;
+  color: #888;
+  max-width: 500px;
+  margin: 12px auto 0;
+  text-align: center;
+  line-height: 1.4;
+}
