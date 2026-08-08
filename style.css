@@ -35,6 +35,37 @@ header p {
   box-shadow: 0 2px 6px rgba(244, 169, 78, 0.4);
 }
 
+.selos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 16px 20px;
+  background: #fff;
+}
+
+.selo {
+  font-size: 12px;
+  font-weight: bold;
+  color: #4A5D45;
+  background: #FBEADC;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.secao-produtos {
+  background: #F7F1E9;
+  padding-bottom: 20px;
+}
+
+.titulo-secao {
+  text-align: center;
+  font-size: 20px;
+  padding: 24px 16px 0;
+  margin: 0;
+  color: #1A1A1A;
+}
+
 #produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
@@ -159,4 +190,20 @@ img {
   margin: 12px auto 0;
   text-align: center;
   line-height: 1.4;
+}
+
+.rodape {
+  background: #1A1A1A;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.rodape .aviso-afiliado {
+  color: #aaaaaa;
+}
+
+.rodape .copyright {
+  color: #777777;
+  font-size: 11px;
+  margin: 16px 0 0;
 }
