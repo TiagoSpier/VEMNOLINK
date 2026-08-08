@@ -3,7 +3,11 @@
     "nome": "Relógio Masculino Saint Germain Murray Full Black",
     "de": "R$ 246,79",
     "por": "R$ 158,80",
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_624745-MLB81547974148_012025-F.webp",
+    "fotos": [
+      "relogio-1.jpg",
+      "relogio-2.jpg",
+      "relogio-3.jpg"
+    ],
     "link": "https://meli.la/215HGAu"
   }
 ]
