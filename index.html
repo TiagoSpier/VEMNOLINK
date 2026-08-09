@@ -1,51 +1,256 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VEM NO LINK</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vem no Link | Achados que valem o clique</title>
+  <meta
+    name="description"
+    content="Ofertas, achados e produtos selecionados. Encontre produtos que realmente valem o clique."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="hero">
-  <h1>VEM NO LINK</h1>
-  <p>As melhores ofertas da internet</p>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
 
-  <a class="btn" href="https://chat.whatsapp.com/FVnhVZ2k7qo2IiSMIyOF6y?s=cl&p=i&mlu=4" target="_blank" rel="noopener noreferrer">Entrar no Grupo VIP</a>
+      <a href="#" class="logo">
+        <span>VEM</span> NO LINK
+      </a>
 
-  <div class="redes">
-    <a href="https://www.tiktok.com/@vemnolink2" target="_blank" rel="noopener noreferrer" class="botao-rede tiktok">TikTok</a>
-    <a href="https://www.instagram.com/_natureza_selvagem_" target="_blank" rel="noopener noreferrer" class="botao-rede instagram">Instagram</a>
-    <a href="https://www.mercadolivre.com.br/social/spiertiago" target="_blank" rel="noopener noreferrer" class="botao-rede mercadolivre">Mercado Livre</a>
-  </div>
-</header>
+      <div class="search">
+        <input
+          type="text"
+          id="busca"
+          placeholder="O que você está procurando?"
+          aria-label="Buscar produtos"
+        >
+        <button id="botaoBusca" aria-label="Buscar">
+          🔍
+        </button>
+      </div>
 
-<div class="selos">
-  <span class="selo">✅ Ofertas verificadas</span>
-  <span class="selo">🔄 Atualizado toda semana</span>
-  <span class="selo">🎥 Novidades no TikTok</span>
-</div>
+      <nav class="menu">
+        <a href="#ofertas">Ofertas</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#produtos">Produtos</a>
+      </nav>
 
-<section class="secao-produtos">
-  <h2 class="titulo-secao">🔥 Ofertas de Hoje</h2>
-  <main id="produtos"></main>
-</section>
+      <button class="menu-mobile" aria-label="Abrir menu">
+        ☰
+      </button>
 
-<footer class="rodape">
-  <div class="redes">
-    <a href="https://www.tiktok.com/@vemnolink2" target="_blank" rel="noopener noreferrer" class="botao-rede tiktok">TikTok</a>
-    <a href="https://www.instagram.com/_natureza_selvagem_" target="_blank" rel="noopener noreferrer" class="botao-rede instagram">Instagram</a>
-    <a href="https://www.mercadolivre.com.br/social/spiertiago" target="_blank" rel="noopener noreferrer" class="botao-rede mercadolivre">Mercado Livre</a>
-  </div>
+    </div>
+  </header>
 
-  <p class="aviso-afiliado">
-    Este site participa do Programa de Afiliados do Mercado Livre e pode receber comissão por compras qualificadas feitas através dos links. #publicidade #afiliado
-  </p>
 
-  <p class="copyright">© 2026 VEM NO LINK — Todos os direitos reservados</p>
-</footer>
+  <!-- HERO -->
+  <main>
 
-<script src="script.js"></script>
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <span class="hero-tag">🔥 ACHADOS SELECIONADOS</span>
+
+        <h1>
+          Produtos que<br>
+          <strong>valem o clique.</strong>
+        </h1>
+
+        <p>
+          Ofertas, achados e produtos que encontramos
+          e que realmente merecem a sua atenção.
+        </p>
+
+        <a href="#ofertas" class="hero-button">
+          VER OFERTAS
+          <span>→</span>
+        </a>
+
+      </div>
+
+      <div class="hero-decoration">
+        <div class="hero-circle"></div>
+        <div class="hero-card">
+          <span>🔥</span>
+          <strong>OFERTAS</strong>
+          <small>que valem a pena</small>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- CATEGORIAS -->
+    <section class="section categorias-section" id="categorias">
+
+      <div class="section-title">
+        <div>
+          <span class="eyebrow">EXPLORE</span>
+          <h2>Categorias</h2>
+        </div>
+      </div>
+
+      <div class="categorias">
+
+        <button class="categoria active" data-categoria="todos">
+          <span>🔥</span>
+          <strong>Ofertas</strong>
+        </button>
+
+        <button class="categoria" data-categoria="tecnologia">
+          <span>📱</span>
+          <strong>Tecnologia</strong>
+        </button>
+
+        <button class="categoria" data-categoria="casa">
+          <span>🏠</span>
+          <strong>Casa</strong>
+        </button>
+
+        <button class="categoria" data-categoria="moda">
+          <span>👕</span>
+          <strong>Moda</strong>
+        </button>
+
+        <button class="categoria" data-categoria="acessorios">
+          <span>⌚</span>
+          <strong>Acessórios</strong>
+        </button>
+
+        <button class="categoria" data-categoria="esportes">
+          <span>⚽</span>
+          <strong>Esportes</strong>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- OFERTAS -->
+    <section class="section ofertas-section" id="ofertas">
+
+      <div class="section-title">
+
+        <div>
+          <span class="eyebrow">DESTAQUES</span>
+          <h2>Ofertas em destaque</h2>
+        </div>
+
+        <a href="#produtos" class="ver-todos">
+          Ver todos →
+        </a>
+
+      </div>
+
+      <div id="produtos" class="produtos-grid">
+        <!-- Os produtos serão carregados automaticamente -->
+      </div>
+
+      <div id="sem-resultados" class="sem-resultados">
+        <span>🔎</span>
+        <h3>Nenhum produto encontrado</h3>
+        <p>Tente pesquisar outro produto.</p>
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+      <div class="cta-content">
+
+        <span>🔥 VEM NO LINK</span>
+
+        <h2>
+          Achados que realmente
+          <strong>valem o clique.</strong>
+        </h2>
+
+        <p>
+          A gente encontra. Você decide.
+        </p>
+
+        <a href="#produtos" class="cta-button">
+          CONFERIR PRODUTOS →
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <span>VEM</span> NO LINK
+        </a>
+
+        <p>
+          Achados, ofertas e produtos selecionados
+          que valem o clique.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <div>
+          <h4>Navegação</h4>
+          <a href="#ofertas">Ofertas</a>
+          <a href="#categorias">Categorias</a>
+          <a href="#produtos">Produtos</a>
+        </div>
+
+        <div>
+          <h4>Siga a gente</h4>
+          <a href="#" target="_blank">Instagram</a>
+          <a href="#" target="_blank">TikTok</a>
+          <a href="#" target="_blank">YouTube</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Vem no Link. Todos os direitos reservados.
+      </p>
+
+      <p>
+        Alguns links podem gerar comissão para o Vem no Link.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
