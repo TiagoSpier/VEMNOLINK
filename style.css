@@ -144,6 +144,12 @@ a {
   margin: 0 0 24px;
 }
 
+.hero-botoes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .hero-button {
   display: inline-flex;
   align-items: center;
@@ -160,6 +166,16 @@ a {
 .hero-button:hover {
   background: #F4A94E;
   color: #1A1A1A;
+}
+
+.hero-button-whatsapp {
+  background: #F4A94E;
+  color: #1A1A1A;
+}
+
+.hero-button-whatsapp:hover {
+  background: #1A1A1A;
+  color: #fff;
 }
 
 .hero-decoration {
