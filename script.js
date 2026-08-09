@@ -94,7 +94,10 @@ function aplicarFiltros() {
   let resultado = todosProdutos;
 
   if (categoriaAtual !== "todos") {
-    resultado = resultado.filter(p => p.categoria === categoriaAtual);
+    resultado = resultado.filter(p => {
+      const extras = p.categorias_extra || [];
+      return p.categoria === categoriaAtual || extras.includes(categoriaAtual);
+    });
   }
 
   if (termoBusca !== "") {
