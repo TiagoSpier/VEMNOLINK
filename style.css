@@ -300,6 +300,28 @@ a {
   background: #FFF6EC;
 }
 
+.categoria-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.categoria-destaque {
+  border-color: #D4A017;
+  background: linear-gradient(135deg, #FFF6EC, #FBEADC);
+  box-shadow: 0 0 0 1px #D4A017, 0 4px 12px rgba(212, 160, 23, 0.25);
+}
+
+.categoria-destaque strong {
+  color: #7A5C00;
+}
+
+.categoria-destaque:hover,
+.categoria-destaque.active {
+  box-shadow: 0 0 0 2px #D4A017, 0 6px 16px rgba(212, 160, 23, 0.35);
+}
+
 /* ===== OFERTAS / PRODUTOS ===== */
 .produtos-grid {
   display: grid;
