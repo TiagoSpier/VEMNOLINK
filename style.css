@@ -180,8 +180,8 @@ a {
 
 .hero-decoration {
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: 280px;
+  height: 280px;
   flex-shrink: 0;
 }
 
@@ -199,8 +199,8 @@ a {
   transform: translate(-50%, -50%);
   background: #fff;
   border-radius: 50%;
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 170px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -531,6 +531,40 @@ a {
 
 .footer-links a:hover {
   color: #F4A94E;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 17px;
+  transition: transform 0.15s ease;
+}
+
+.footer-social-icon:hover {
+  transform: translateY(-3px);
+}
+
+.icon-instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.icon-tiktok {
+  background: #ffffff1a;
+  border: 1px solid #3a3a3a;
+}
+
+.icon-youtube {
+  background: #FF0000;
 }
 
 .footer-bottom {
