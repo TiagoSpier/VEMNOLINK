@@ -206,12 +206,12 @@ a {
 }
 
 .hero-card-logo {
-  width: 26px;
-  height: 26px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin: 0 auto 4px;
+  margin: 0 auto;
 }
 
 .hero-card strong {
