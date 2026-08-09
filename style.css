@@ -526,6 +526,20 @@ a {
     display: block;
     margin-left: auto;
   }
+  .menu.menu-aberto {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 16px 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  }
+  .header-container {
+    position: relative;
+  }
   .hero {
     flex-direction: column;
     text-align: center;
@@ -533,6 +547,9 @@ a {
   .hero-content p {
     margin-left: auto;
     margin-right: auto;
+  }
+  .hero-botoes {
+    justify-content: center;
   }
   .hero-decoration {
     order: -1;
