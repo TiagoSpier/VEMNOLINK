@@ -243,8 +243,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
@@ -252,8 +252,8 @@ a {
 }
 
 .hero-social-icon svg {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 .hero-social-icon:hover {
